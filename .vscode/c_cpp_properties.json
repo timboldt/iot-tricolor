@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/.arduino15/packages/esp32/**",
+                "~/Arduino/libraries/**"
+            ],
+            "defines": [
+                "HAVE_CONFIG_H",
+                "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
+                "UNITY_INCLUDE_CONFIG_H",
+                "WITH_POSIX",
+                "_GNU_SOURCE",
+                "IDF_VER=\"v4.4.2\"",
+                "ESP_PLATFORM",
+                "_POSIX_READER_WRITER_LOCKS",   
+                "F_CPU=240000000L",
+                "ARDUINO=10607",
+                "ARDUINO_ADAFRUIT_FEATHER_ESP32_V2",
+                "ARDUINO_ARCH_ESP32",
+                "ARDUINO_BOARD=ADAFRUIT_FEATHER_ESP32_V2",
+                "ARDUINO_VARIANT=adafruit_feather_esp32_v2",
+                "ARDUINO_PARTITION_default_8MB",
+                "ESP32",
+                "CORE_DEBUG_LEVEL=0",
+                "ARDUINO_RUNNING_CORE=1",
+                "ARDUINO_EVENT_RUNNING_CORE=1",
+                "BOARD_HAS_PSRAM",
+                "ARDUINO_USB_CDC_ON_BOOT=0"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
